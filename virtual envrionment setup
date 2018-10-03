@@ -1,0 +1,11 @@
+# Install virtual environment using pip
+sudo -H /Users/vishwasgarg/homebrew/bin/python3  -m pip install --user virtualenv
+
+#Create virtaul environment named
+/Users/vishwasgarg/homebrew/bin/python3 -m virtualenv dl_env
+
+#Install from requiremts.txt
+pip install -r requrements.txt
+
+#note
+scipy should be installed before scklearn
